@@ -60,7 +60,7 @@
     --deep-blue: #4a4d68;
     --grey: #606060;
     --white: #fff;
-    --dark: #1c1c25;
+    --dark: #4a4d68;
     --yellow: #f8ded2;
 }
 
@@ -1162,10 +1162,13 @@ p {
   opacity: 0;
   visibility: hidden;
   background: rgba(0, 0, 0, 0.5);
+  height: 500px;
+
 }
 .home1.service .single.bg-show:hover .overlay{
   opacity: 1;
   visibility: visible;
+  height: 500px;
 }
 /*================================================
 5.7: team css Style
@@ -1580,10 +1583,10 @@ p {
 .footer-top .title h5{
   font-weight: 700;
   text-transform: capitalize;
-  color: var(--white);
+  color: var(--dark);
 }
 .footer-top .content p{
-  color: var(--white);
+  color: var(--dark);
 }
 .footer-top .content .address li:not(:last-child){
   padding-bottom: 13px;
@@ -1613,7 +1616,7 @@ p {
 }
 .footer-top .content .address li:hover .icon i{
   background: var(--orange);
-  color: var(--white);
+  color: var(--dark);
 }
 .footer-top .content .links li{
   position: relative;
