@@ -1,3 +1,7 @@
+<script>
+    alert('This site is under construction')
+</script>
+
 <?php
 require('sections/header.php');
 require('sections/banner.php');
@@ -15,7 +19,3 @@ require('sections/footer.php');
 
 
 ?>
-
-  
-
-   
