@@ -47,8 +47,10 @@
                                                     <i class="fas fa-comment-dots"></i>
                                                 </label>
                                             </div>
+                                            <p style="font-size: 12px; line-height:normal">By clicking "Submit" I agree to receive emails, text messages, and phone calls. Consent is not a condition of purchase. <br>Msg & data rates may apply. Message frequency varies. Unsubscribe at any time by replying STOP.</p>
+
                                             <div class="col-lg-12">
-                                                <button type="submit" class="button-style">send message <i class="fas fa-arrow-circle-right"></i></button>
+                                                <button type="submit" class="button-style">Submit <i class="fas fa-arrow-circle-right"></i></button>
                                             </div>
                                         </div>
                                         <div id="form-messages" class="alert" role="alert"></div>
