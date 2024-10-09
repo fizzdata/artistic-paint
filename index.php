@@ -1,4 +1,6 @@
-    <style>
+<head> 
+    <title>Artistic Paint USA</title>
+       <style>
         @import url('https://fonts.googleapis.com/css?family=Poiret+One|Source+Sans+Pro');
 
 * {
@@ -122,6 +124,9 @@ a {
     color: gray;
     margin-top: 20px;
     text-decoration: none;
+    padding: 18px;
+    border: 1px solid gray;
+    border-radius: 10px;
 }
     </style>
 </head>
