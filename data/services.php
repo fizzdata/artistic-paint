@@ -3,7 +3,7 @@ $services = [
 
     [
         'name' => 'Taping',
-        'img_url' => 'assets/img/service/taping.jpg',
+        'img_url' => 'assets/img/service/taping.JPG',
         'description' => 'Our services provide top-quality, authentic taping solutions and expert drywall honing. Alongside these, we offer the most reliable texturing solutions. All these premium services are available at highly competitive prices, ensuring exceptional value for our clients.'
     ],
     [
@@ -23,7 +23,7 @@ $services = [
     ],
     [
         'name' => 'Vanetian Plaster',
-        'img_url' => 'assets/img/service/Vanetian-Plaster.jpg',
+        'img_url' => 'assets/img/service/Vanetian-Plaster.JPG',
         'description' => 'Venetian Plaster is crafted from limestone rocks heated with water, mixed with natural colorants like ground marble dust. Various techniques and organic pigments are employed to achieve distinct designs and textures. These textured layers and rich colors give Venetian plaster its elegant, regal appearance.'
     ],
     [
@@ -33,7 +33,7 @@ $services = [
     ],
     [
         'name' => 'Intumescent Painting',
-        'img_url' => 'assets/img/service/Intumescent-Painting.jpg',
+        'img_url' => 'assets/img/service/Intumescent-Painting.JPG',
         'description' => 'Intumescent paint is widely used to shield steel from fire, acting as an insulator that forms a protective char when exposed to heat. At City Painting, our expert, highly trained crews ensure proper application of these coatings. With rigorous safety, property, and site protection protocols, we guarantee top-quality results.'
     ],
     [
