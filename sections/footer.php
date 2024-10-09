@@ -19,7 +19,8 @@
                                 <div class="icon">
                                     <i class="fas fa-map-marker-alt"></i>
                                 </div>
-                                <p>13 hopper st Brooklyn NY 11211</p>
+                                <p>331-333 Rutledge Street, #209<br>
+                                Brooklyn, NY 11211</p>
                             </li>
                             <li class="d-flex align-items-center">
                                 <div class="icon">
@@ -39,88 +40,44 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="content">
                         <div class="title">
-                            <h5>working hours</h5>
+                            <h5>About</h5>
                         </div>
-                        <div class="time-slider swiper-container swiper-container-initialized swiper-container-horizontal">
+                        <div class="time-slider swiper-container swiper-container-initialized swiper-container-horizontal" >
                             <div class="swiper-wrapper" style="transition: all; transform: translate3d(-336px, 0px, 0px);">
-                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev swiper-slide-duplicate-next" data-swiper-slide-index="1" style="width: 306px; margin-right: 30px;">
-                                    <ul class="times">
-                                        <li>
-                                            <p>monday</p>
-                                            <p>10:00 - 11:00</p>
-                                        </li>
-                                        <li>
-                                            <p>tuesday</p>
-                                            <p>09:00 - 12:00</p>
-                                        </li>
-                                        <li>
-                                            <p>thusrday</p>
-                                            <p>10:30 - 11:30</p>
-                                        </li>
-                                        <li>
-                                            <p>sunday</p>
-                                            <p>10:00 - 11:00</p>
-                                        </li>
+                                <div class="swiper-slide swiper-slide-duplicate swiper-slide-prev swiper-slide-duplicate-next" data-swiper-slide-index="1" style="width: 306px; margin-right: 30px; ">
+                                    <ul class="times" style="color: #4a4d68">
+                                    <li><a href="/">home</a></li>
+                                    <li><a href="#about">about</a></li>
+                                    <li><a href="#services">Services</a></li>
+                                    <li><a href="#work">Recent Work</a></li>
+                                    <li><a href="#contact">Contact</a></li>
                                     </ul>
                                 </div>
                                 <div class="swiper-slide swiper-slide-active" data-swiper-slide-index="0" style="width: 306px; margin-right: 30px;">
                                     <ul class="times">
-                                        <li>
-                                            <p>monday</p>
-                                            <p>10:00 - 11:00</p>
-                                        </li>
-                                        <li>
-                                            <p>tuesday</p>
-                                            <p>09:00 - 12:00</p>
-                                        </li>
-                                        <li>
-                                            <p>thusrday</p>
-                                            <p>10:30 - 11:30</p>
-                                        </li>
-                                        <li>
-                                            <p>sunday</p>
-                                            <p>10:00 - 11:00</p>
-                                        </li>
+                                    <li><a href="/">home</a></li>
+                                    <li><a href="#about">about</a></li>
+                                    <li><a href="#services">Services</a></li>
+                                    <li><a href="#work">Recent Work</a></li>
+                                    <li><a href="#contact">Contact</a></li>
                                     </ul>
                                 </div>
                                 <div class="swiper-slide swiper-slide-next swiper-slide-duplicate-prev" data-swiper-slide-index="1" style="width: 306px; margin-right: 30px;">
                                     <ul class="times">
-                                        <li>
-                                            <p>monday</p>
-                                            <p>10:00 - 11:00</p>
-                                        </li>
-                                        <li>
-                                            <p>tuesday</p>
-                                            <p>09:00 - 12:00</p>
-                                        </li>
-                                        <li>
-                                            <p>thusrday</p>
-                                            <p>10:30 - 11:30</p>
-                                        </li>
-                                        <li>
-                                            <p>sunday</p>
-                                            <p>10:00 - 11:00</p>
-                                        </li>
+                                    <li><a href="/">home</a></li>
+                                    <li><a href="#about">about</a></li>
+                                    <li><a href="#services">Services</a></li>
+                                    <li><a href="#work">Recent Work</a></li>
+                                    <li><a href="#contact">Contact</a></li>
                                     </ul>
                                 </div>
                                 <div class="swiper-slide swiper-slide-duplicate swiper-slide-duplicate-active" data-swiper-slide-index="0" style="width: 306px; margin-right: 30px;">
                                     <ul class="times">
-                                        <li>
-                                            <p>monday</p>
-                                            <p>10:00 - 11:00</p>
-                                        </li>
-                                        <li>
-                                            <p>tuesday</p>
-                                            <p>09:00 - 12:00</p>
-                                        </li>
-                                        <li>
-                                            <p>thusrday</p>
-                                            <p>10:30 - 11:30</p>
-                                        </li>
-                                        <li>
-                                            <p>sunday</p>
-                                            <p>10:00 - 11:00</p>
-                                        </li>
+                                    <li><a href="/">home</a></li>
+                                    <li><a href="#about">about</a></li>
+                                    <li><a href="#services">Services</a></li>
+                                    <li><a href="#work">Recent Work</a></li>
+                                    <li><a href="#contact">Contact</a></li>
                                     </ul>
                                 </div>
                             </div>

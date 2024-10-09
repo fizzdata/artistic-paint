@@ -10,101 +10,22 @@
                 </div>
                 <div class="col-lg-12">
                     <div class="row g-0">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single bg-show wow fadeInRight" data-img="assets/img/service/painting.jpg" data-wow-delay="0.3s" data-wow-duration="1s" style="background: url(&quot;assets/img/service/painting.jpg&quot;) center center / cover no-repeat; visibility: hidden; animation-duration: 1s; animation-delay: 0.3s; animation-name: none;">
+
+                    <?php foreach ($services as $service):?>
+                        <div class="col-lg-4 col-md-6" style="padding: 2px">
+                            <div class="single bg-show wow fadeInRight" data-img="<?php echo $service['img_url']?>" data-wow-delay="0.3s" data-wow-duration="1s" style="background: url(&quot;<?php echo $service['img_url']?>&quot;) center center / cover no-repeat; visibility: hidden; animation-duration: 1s; animation-delay: 0.3s; animation-name: none;">
+                                
                                 <div class="overlay">
-                                    <div class="icon">
-                                        <i class="flaticon-architect"></i>
-                                    </div>
-                                    <h4>Taping</h4>
-                                    <p>Our services provide top-quality, authentic taping solutions and expert drywall honing. Alongside these, we offer the most reliable texturing solutions. All these premium services are available at highly competitive prices, ensuring exceptional value for our clients.</p>
+                                    
+                                    <h4><?php echo $service['name']?></h4>
+                                    <p><?php echo $service['description']?></p>
                                 
                                 </div>
+                                <h3 style="text-align: center; color: white; background: black; display: block; padding: 5px;"> <?php echo $service['name']?></h3>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single bg-show wow fadeInRight" data-img="assets/img/service/painting.jpg" data-wow-delay="0.3s" data-wow-duration="1s" style="background: url(&quot;assets/img/service/painting.jpg&quot;) center center / cover no-repeat; visibility: hidden; animation-duration: 1s; animation-delay: 0.3s; animation-name: none;">
-                                <div class="overlay">
-                                    <div class="icon">
-                                        <i class="flaticon-construction"></i>
-                                    </div>
-                                    <h4>Kadex</h4>
-                                    <p>Kadex is a vinyl-based finish applied to the underside of concrete slabs. Ideal for new builds or renovations, it covers existing concrete and fills imperfections, drying to a smooth surface ready for painting. Kadex can be customized to be colored or left uncolored based on your needs.</p>
-                                
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single bg-show wow fadeInRight" data-img="assets/img/service/painting.jpg" data-wow-delay="0.3s" data-wow-duration="1s" style="background: url(&quot;assets/img/service/painting.jpg&quot;) center center / cover no-repeat; visibility: hidden; animation-duration: 1s; animation-delay: 0.3s; animation-name: none;">
-                                <div class="overlay">
-                                    <div class="icon">
-                                        <i class="flaticon-hook"></i>
-                                    </div>
-                                    <h4>Faux Finishes</h4>
-                                    <p>Our skilled, professionally trained painters use the right tools and steady hands to add an artistic touch to your interior. We can bring any design to life and transform your space to match your vision. That's why we're the top choice in the Tri-State area for texture and faux painting.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single bg-show wow fadeInRight" data-img="assets/img/service/painting.jpg" data-wow-delay="0.3s" data-wow-duration="1s" style="background: url(&quot;assets/img/service/painting.jpg&quot;) center center / cover no-repeat; visibility: hidden; animation-duration: 1s; animation-delay: 0.3s; animation-name: none;">
-                                <div class="overlay">
-                                    <div class="icon">
-                                        <i class="flaticon-oil-pump"></i>
-                                    </div>
-                                    <h4>Painting</h4>
-                                    <p>From meticulous planning to flawless execution, our professional painters and stylists work seamlessly within your home painting project to achieve the exact results you envision. With attention to detail and dedication, we ensure that every aspect of your project meets your highest expectations.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single bg-show wow fadeInRight" data-img="assets/img/service/painting.jpg" data-wow-delay="0.3s" data-wow-duration="1s" style="background: url(&quot;assets/img/service/painting.jpg&quot;) center center / cover no-repeat; visibility: hidden; animation-duration: 1s; animation-delay: 0.3s; animation-name: none;">
-                                <div class="overlay">
-                                    <div class="icon">
-                                        <i class="flaticon-home"></i>
-                                    </div>
-                                    <h4>Vanetian Plaster</h4>
-                                    <p>Venetian Plaster is crafted from limestone rocks heated with water, mixed with natural colorants like ground marble dust. Various techniques and organic pigments are employed to achieve distinct designs and textures. These textured layers and rich colors give Venetian plaster its elegant, regal appearance.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single bg-show wow fadeInRight" data-img="assets/img/service/painting.jpg" data-wow-delay="0.3s" data-wow-duration="1s" style="background: url(&quot;assets/img/service/painting.jpg&quot;) center center / cover no-repeat; visibility: hidden; animation-duration: 1s; animation-delay: 0.3s; animation-name: none;">
-                                <div class="overlay">
-                                    <div class="icon">
-                                        <i class="flaticon-project"></i>
-                                    </div>
-                                    <h4>Wallpaper Hanging</h4>
-                                    <p>Our team has the knowledge, tools and products to perform wallpaper or vinyl wallcovering installation as well as removing that old wallpaper including the preparation of the surface for the new residential or commercial wallpaper.</p>
-                                    
-                                    <a>read more</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single bg-show wow fadeInRight" data-img="assets/img/service/painting.jpg" data-wow-delay="0.3s" data-wow-duration="1s" style="background: url(&quot;assets/img/service/painting.jpg&quot;) center center / cover no-repeat; visibility: hidden; animation-duration: 1s; animation-delay: 0.3s; animation-name: none;">
-                                <div class="overlay">
-                                    <div class="icon">
-                                        <i class="flaticon-oil-pump"></i>
-                                    </div>
-                                    <h4>Intumescent Painting</h4>
-                                    <p>Intumescent paint is widely used to shield steel from fire, acting as an insulator that forms a protective char when exposed to heat. At City Painting, our expert, highly trained crews ensure proper application of these coatings. With rigorous safety, property, and site protection protocols, we guarantee top-quality results.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="single bg-show wow fadeInRight" data-img="assets/img/service/painting.jpg" data-wow-delay="0.3s" data-wow-duration="1s" style="background: url(&quot;assets/img/service/painting.jpg&quot;) center center / cover no-repeat; visibility: hidden; animation-duration: 1s; animation-delay: 0.3s; animation-name: none;">
-                                <div class="overlay">
-                                    <div class="icon">
-                                        <i class="flaticon-home"></i>
-                                    </div>
-                                    <h4>Epoxy Paint</h4>
-                                    <p>Applying and repairing epoxy floor coatings for commercial buildings requires skill and expertise for long-lasting durability. At City Painting, our floor coating specialists will meticulously plan and execute your commercial epoxy floor coating project to ensure a successful outcome.</p>
-                                    
-                                </div>
-                            </div>
-                        </div>
+                        <?php endforeach;?>
+                        
                         
                     </div>
                 </div>

@@ -13,87 +13,31 @@
                     <ul class="project-menu d-flex justify-content-center wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.3s; animation-name: none;">
                         <li class="active"><a href="/#!" data-mixitup-control="" data-filter="all" class="mixitup-control-active">all</a></li>
                         <li><a href="/#!" data-mixitup-control="" data-filter=".com">commercial</a></li>
-                        <li><a href="/#!" data-mixitup-control="" data-filter=".des">design</a></li>
-                        <li><a href="/#!" data-mixitup-control="" data-filter=".ext">exterior</a></li>
-                        <li><a href="/#!" data-mixitup-control="" data-filter=".int">interior</a></li>
                         <li><a href="/#!" data-mixitup-control="" data-filter=".res">residential</a></li>
                     </ul>
                 </div>
                 <div class="col-lg-12">
-                    <div class="row filters" id="MixItUp11799C">
-                        <div class="col-lg-4 col-md-6">
-                            <div class="row">
-                                <div class="col-lg-12 mix com ext res">
-                                    <div class="item wow fadeInRight" data-wow-delay="0.3s" data-wow-duration="1s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.3s; animation-name: none;">
-                                        <img src="assets/img/img1.jpg" alt="Project">
-                                        <p>18 wesitde ava</p>
+    <div class="row filters" id="MixItUp11799C">
+        <?php foreach($projects as $project): ?>
+            <div class="col-lg-4 col-md-6 mix ext <?php echo $project['type']; ?>">
+                <div class="item wow fadeInRight" data-wow-delay="0.3s" data-wow-duration="1s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.3s; animation-name: none;">
+                    <img src="<?php echo $project['img_url']; ?>" alt="Project" >
+                    <a href="<?php echo $project['img_url']; ?>" class="popup-image">
+                    <div style="background-color:blanchedalmond; width:150px; padding:10px">
+                    <img src="assets/img/projects/enlarge.svg" style="width: 50px">
+                    <h5><?php echo $project['address']; ?></h5>
+                <p><?php echo $project['units']; ?> Units</p></div>
 
-                                        <a href="assets/img/img1.jpg" class="popup-image">
-                                            <i class="flaticon-plus">Enlarge</i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 mix des int">
-                                    <div class="item wow fadeInRight" data-wow-delay="0.3s" data-wow-duration="1s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.3s; animation-name: none;">
-                                        <img src="assets/img/img2.jpg" alt="Project">
-                                        <a href="assets/img/img2.jpg" class="popup-image">
-                                            <i class="flaticon-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6">
-                            <div class="row">
-                                <div class="col-lg-12 mix ext com">
-                                    <div class="item wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.3s; animation-name: none;">
-                                        <img src="assets/img/img3.jpg" alt="Project">
-                                        <a href="assets/img/img3.jpg" class="popup-image">
-                                            <i class="flaticon-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 mix int des">
-                                    <div class="item wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.3s; animation-name: none;">
-                                        <img src="assets/img/img4.jpg" alt="Project">
-                                        <a href="assets/img/img4.jpg" class="popup-image">
-                                            <i class="flaticon-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 mix res">
-                                    <div class="item wow fadeInDown" data-wow-delay="0.3s" data-wow-duration="1s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.3s; animation-name: none;">
-                                        <img src="assets/img/img5.jpg" alt="Project">
-                                        <a href="assets/img/img5.jpg" class="popup-image">
-                                            <i class="flaticon-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="row">
-                                <div class="col-lg-12 col-md-6 mix com">
-                                    <div class="item wow fadeInLeft" data-wow-delay="0.3s" data-wow-duration="1s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.3s; animation-name: none;">
-                                        <img src="assets/img/img6.jpg" alt="Project">
-                                        <a href="assets/img/img6.jpg" class="popup-image">
-
-                                            <i class="flaticon-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-md-6 mix des res">
-                                    <div class="item wow fadeInLeft" data-wow-delay="0.3s" data-wow-duration="1s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.3s; animation-name: none;">
-                                        <img src="assets/img/img7.jpg" alt="Project">
-                                        <a href="assets/img/img7.jpg" class="popup-image">
-                                            <i class="flaticon-plus"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                        
+                    </a>
                 </div>
+            </div>
+        <?php endforeach; ?>
+        <!-- Additional static projects can go here if needed -->
+       
+    </div>
+</div>
+
             </div>
         </div>
     </section>

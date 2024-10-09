@@ -88,11 +88,7 @@
                                     <li><a href="#services">Services</a></li>
                                     <li><a href="#work">Recent Work</a></li>
                                     <li><a href="#contact">Contact</a></li>
-
                                 </ul>
-                            </div>
-                            <div class="right-part">
-                                <button data-bs-toggle="modal" data-bs-target="#exampleModal"><i class="flaticon-loupe"></i></button>
                             </div>
                         </nav>
                     </div>
