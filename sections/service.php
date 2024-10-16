@@ -5,11 +5,11 @@
                 <div class="col-xl-6 offset-xl-3 col-lg-8 offset-lg-2">
                     <div class="section-title wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="1s" style="visibility: hidden; animation-duration: 1s; animation-delay: 0.3s; animation-name: none;">
                         <h2>service we're offering</h2>
-                        <p>artistic Paint offers a wide range of commercial painting services to both existing and new customers. All the information you need has been provided below.</p>
+                        <!-- <p>artistic Paint offers a wide range of commercial painting services to both existing and new customers. All the information you need has been provided below.</p> -->
                     </div>
                 </div>
                 <div class="col-lg-12">
-                    <div class="row g-0">
+                    <div class="row justify-content-center">
 
                     <?php foreach ($services as $service):?>
                         <div class="col-lg-4 col-md-6" style="padding: 2px">

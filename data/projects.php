@@ -2,9 +2,9 @@
 $projects = [
 
     [
-        'address' => '54 Noll St Brooklyn NY 11206',
-        'img_url' => 'assets/img/projects/54 Noll St Brooklyn NY 11206_ 1,000 Units/IMG_0739.png',
-        'units' => 1000,
+        'address' => '1227 Broadway New York, NY 10001',
+        'img_url' => 'assets/img/projects/1227 Broadway New York, NY 10001 _ 460 units/IMG_0738.png',
+        'units' => 460,
         'type' => 'com' //Commercial
     ],
     [
@@ -21,10 +21,11 @@ $projects = [
         'type' => 'com' //Commercial
     ],
 
+    
     [
-        'address' => '1227 Broadway New York, NY 10001',
-        'img_url' => 'assets/img/projects/1227 Broadway New York, NY 10001 _ 460 units/IMG_0738.png',
-        'units' => 460,
+        'address' => '54 Noll St Brooklyn NY 11206',
+        'img_url' => 'assets/img/projects/54 Noll St Brooklyn NY 11206_ 1,000 Units/IMG_0739.png',
+        'units' => 1000,
         'type' => 'com' //Commercial
     ],
 
